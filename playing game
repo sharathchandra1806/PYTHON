@@ -1,0 +1,19 @@
+import random
+p1=input("Enter player1: ")
+p2=input("Enter player2: ")
+s1=10
+s2=10
+d1=random.randit(1,10)
+d2=random.randit(1,10)
+print("___________PLAYER1 TURN__________")
+while(True):
+    g1=int(input("Enter ur guess: "))
+    s1=s1-1
+    if g1==d1:
+        break
+print("___________PLAYER1 TURN__________")
+while(True):
+    g1=int(input("Enter ur guess: "))
+    s1=s1-1
+    if g1==d1:
+        break
