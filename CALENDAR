@@ -2,3 +2,29 @@ import calendar
 a=int(input("Enter any year: "))
 res=calendar.calendar(a)
 print(res)
+
+calendar and month:-
+
+import calendar
+a=int(input("Enter any year: "))
+b=int(input("Enter any month: "))
+res=calendar.month(a,b)
+print(res)
+
+
+
+calendar with lived:-
+from datetime import date
+a=date(2006,6,18)
+b=date(2026,4,28)
+print("no of days he lived: ",b-a)
+
+calendar with time lived:-
+
+from datetime import date
+a=date(2006,6,18)
+b=date(2026,4,28)
+print("no of days he lived: ",(b-a).total_seconds()/3600)
+
+
+
